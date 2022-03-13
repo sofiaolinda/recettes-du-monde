@@ -1,0 +1,8 @@
+uuid: 6ab3c93b-8d7a-431f-ab1c-1f5cf64e5625
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Type de recette'
+vid: type_de_recette
+description: 'Categorie de plats'
+weight: 0

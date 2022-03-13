@@ -1,0 +1,14 @@
+uuid: c5f8d2ea-94a5-43c1-8409-b80e7e09f57a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.redacteur
+  module:
+    - user
+id: user_add_role_action.redacteur
+label: 'Ajouter le rôle Rédacteur aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: redacteur

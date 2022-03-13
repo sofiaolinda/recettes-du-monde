@@ -1,0 +1,17 @@
+uuid: 844ae9c3-dd94-4cf1-8f49-8b551b450069
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Recette
+type: recette
+description: 'Description detaillé pour préparer um plat'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

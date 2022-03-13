@@ -1,0 +1,17 @@
+uuid: 23dfab89-3738-4d85-9c68-f478dd0c9f3a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - node
+    - toolbar
+id: redacteur
+label: Rédacteur
+weight: 4
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'create article content'
+  - 'edit own article content'

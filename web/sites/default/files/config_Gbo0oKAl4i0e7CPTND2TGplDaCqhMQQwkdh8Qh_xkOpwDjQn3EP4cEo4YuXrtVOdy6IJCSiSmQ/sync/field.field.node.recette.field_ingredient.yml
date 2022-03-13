@@ -1,0 +1,19 @@
+uuid: 1688a4a8-8fa9-4ab3-8f6e-e846d23f2f9a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingredient
+    - node.type.recette
+id: node.recette.field_ingredient
+field_name: field_ingredient
+entity_type: node
+bundle: recette
+label: Ingrédient
+description: 'Ajouter un ou plusiers ingrdient'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
